@@ -1,0 +1,68 @@
+.big-container {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm-container {
+    height: 50%;
+    width: 75%;
+    background-color: rgb(12, 68, 147);
+    border: solid black 2px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.name {
+    width: 75%;
+    padding: 1rem;
+    border: solid whitesmoke 2px;
+    border-radius: 5px;
+    font-family: "Raleway", serif;
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+}
+
+.id {
+    padding: 1rem;
+    font-family: "Raleway", serif;
+    border: solid white 2px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.attribution {
+    font-size: 1.5vw;
+}
+
+@media (max-width: 800px) {
+    .sm-container {
+        height: 75%;
+        width: 75%;
+    }
+
+    .name {
+        font-size: 5vh;
+    }
+
+    .id {
+        font-size: 3vh;
+    }
+
+    .attribution {
+        font-size: 2vh;
+    }
+
+}
