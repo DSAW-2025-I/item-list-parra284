@@ -11,7 +11,7 @@
 
 .sm-container {
     height: 50%;
-    width: 50%;
+    width: 75%;
     background-color: rgb(12, 68, 147);
     border: solid black 2px;
     border-radius: 8px;
@@ -26,19 +26,25 @@
     width: 75%;
     padding: 1rem;
     border: solid whitesmoke 2px;
-    border-radius: 3px;
+    border-radius: 5px;
     font-family: "Raleway", serif;
     text-align: center;
     color: white;
+    font-size: 3vw;
 }
 
 .id {
     padding: 1rem;
     font-family: "Raleway", serif;
     border: solid white 2px;
-    border-radius: 3px;
+    border-radius: 5px;
     text-align: center;
     color: white;
+    font-size: 1.5vw;
+}
+
+.attribution {
+    font-size: 1.5vw;
 }
 
 @media (max-width: 800px) {
